@@ -15,9 +15,18 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#13c8ec',
+        primary: {
+          DEFAULT: '#0d9488',
+          hover: '#0f766e',
+          foreground: '#ffffff',
+        },
         'background-light': '#f6f8f8',
         'background-dark': '#101f22',
+        'background-main': '#f8fafc',
+        'surface-card': '#ffffff',
+        'surface-border': '#e2e8f0',
+        'text-main': '#0f172a',
+        'text-muted': '#64748b',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -56,7 +65,8 @@ module.exports = {
       },
       fontFamily: {
         display: ['var(--font-space-grotesk)', 'Space Grotesk', 'sans-serif'],
-        sans: ['var(--font-space-grotesk)', 'Space Grotesk', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-inter)', 'Inter', 'var(--font-space-grotesk)', 'Space Grotesk', 'system-ui', 'sans-serif'],
+        mono: ['var(--font-jetbrains-mono)', 'JetBrains Mono', 'monospace'],
       },
       keyframes: {
         'accordion-down': {

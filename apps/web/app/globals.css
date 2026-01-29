@@ -70,4 +70,16 @@
     background-color: #101f22;
     background-image: linear-gradient(#1a2e32 1px, transparent 1px), linear-gradient(90deg, #1a2e32 1px, transparent 1px);
   }
+
+  .sidebar-item-active {
+    @apply bg-slate-100 text-primary border-r-4 border-primary font-semibold;
+  }
+
+  .work-order-card {
+    @apply bg-white border border-surface-border rounded-xl p-5 hover:shadow-md transition-shadow;
+  }
+
+  .glass-header {
+    @apply bg-white/80 backdrop-blur-md border-b border-surface-border sticky top-0 z-30;
+  }
 }
