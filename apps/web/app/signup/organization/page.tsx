@@ -43,7 +43,7 @@ export default function SignupOrganizationPage() {
                 <div className="size-8 rounded-full bg-primary flex items-center justify-center text-[#0d191b] font-bold text-sm ring-4 ring-background-light dark:ring-background-dark">
                   <span className="material-symbols-outlined text-lg font-bold">check</span>
                 </div>
-                <span className="text-xs font-bold mt-2 text-primary dark:text-primary uppercase tracking-wider">Profile</span>
+                <span className="text-xs font-bold mt-2 text-[#0d191b] dark:text-white uppercase tracking-wider">Profile</span>
               </div>
 
               <div className="flex flex-col items-center relative z-10">

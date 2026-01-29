@@ -47,15 +47,15 @@ export default function SignupSecurityPage() {
               <div className="w-3/4 h-0.5 bg-primary absolute top-4 left-0 -z-0"></div>
               
               <div className="flex flex-col items-center relative z-10">
-                <div className="size-8 rounded-full bg-[#0d191b] dark:bg-white flex items-center justify-center text-primary dark:text-[#0d191b] font-bold text-sm ring-4 ring-background-light dark:ring-background-dark">
-                  <span className="material-symbols-outlined text-lg">check</span>
+                <div className="size-8 rounded-full bg-primary flex items-center justify-center text-[#0d191b] font-bold text-sm ring-4 ring-background-light dark:ring-background-dark">
+                  <span className="material-symbols-outlined text-lg font-bold">check</span>
                 </div>
                 <span className="text-xs font-bold mt-2 text-[#0d191b] dark:text-white uppercase tracking-wider">Profile</span>
               </div>
               
               <div className="flex flex-col items-center relative z-10">
-                <div className="size-8 rounded-full bg-[#0d191b] dark:bg-white flex items-center justify-center text-primary dark:text-[#0d191b] font-bold text-sm ring-4 ring-background-light dark:ring-background-dark border-2 border-transparent">
-                  <span className="material-symbols-outlined text-lg">check</span>
+                <div className="size-8 rounded-full bg-primary flex items-center justify-center text-[#0d191b] font-bold text-sm ring-4 ring-background-light dark:ring-background-dark border-2 border-transparent">
+                  <span className="material-symbols-outlined text-lg font-bold">check</span>
                 </div>
                 <span className="text-xs font-bold mt-2 text-[#0d191b] dark:text-white uppercase tracking-wider">Organization</span>
               </div>
