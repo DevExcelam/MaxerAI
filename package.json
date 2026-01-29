@@ -1,0 +1,35 @@
+{
+  "name": "maxeria",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Maxeria - Application industrielle Local-First pour l'analyse MAXER",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean && rimraf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\""
+  },
+  "devDependencies": {
+
+    "prettier": "^3.2.0",
+    "rimraf": "^5.0.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.23",
+    "next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
