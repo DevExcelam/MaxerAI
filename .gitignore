@@ -53,3 +53,5 @@ package-lock.json
 .next/
 dist/
 build/
+.vercel
+.next-build/
