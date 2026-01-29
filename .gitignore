@@ -48,7 +48,6 @@ workbox-*.js
 *.sqlite
 *.sqlite3
 *.db
-package-lock.json
 .npm-cache/
 .next/
 dist/
